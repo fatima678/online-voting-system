@@ -294,6 +294,8 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+// mongoose.connect("mongodb+srv://softwarechaser4:software@cluster0.26od2df.mongodb.net/?retryWrites=true&w=majority&appName=test")
+
 mongoose.connect("mongodb+srv://softwarechaser4:software@cluster0.26od2df.mongodb.net/?retryWrites=true&w=majority&appName=test")
     .then(() => {
         console.log("Connected Successfully");

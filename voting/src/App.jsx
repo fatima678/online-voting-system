@@ -120,6 +120,7 @@ function App() {
         <Route path="/register-candidate" element={<PrivateRoute><CandidateRegistration /></PrivateRoute>} />
         <Route path="/cast-vote/:id" element={<PrivateRoute><CastVote /></PrivateRoute>} />
         <Route path="/results" element={<PrivateRoute><Results /></PrivateRoute>} />
+        <Route path="/aboutUs" element={<PrivateRoute><AboutUs /></PrivateRoute>} />
         <Route path="/contactUs" element={<PrivateRoute><ContactUs /></PrivateRoute>} />
         <Route path="/history" element={<PrivateRoute><History /></PrivateRoute>} />
         <Route path="/profiles" element={<PrivateRoute><Profile /></PrivateRoute>} />
